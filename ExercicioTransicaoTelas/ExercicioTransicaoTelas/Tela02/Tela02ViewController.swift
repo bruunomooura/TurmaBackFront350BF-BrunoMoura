@@ -9,8 +9,13 @@ import UIKit
 
 class Tela02ViewController: UIViewController {
 
+    var name: String = ""
+    
+    @IBOutlet weak var textinsertedOnScreen1Label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        textinsertedOnScreen1Label.text = name
 
     }
     

@@ -3,4 +3,114 @@
    uuid = "E27EB8FA-9657-46D1-BF09-20EDCDBCD4C5"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "402E42D9-B9B7-4219-AC14-20817A04318C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExercicioTransicaoTelas/Tela02/Tela02ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "Tela02ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "402E42D9-B9B7-4219-AC14-20817A04318C - 8b84e2c46c9d01e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExercicioTransicaoTelas.Tela02ViewController.name.getter : Swift.String"
+                  moduleName = "ExercicioTransicaoTelas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomoura/TurmaBackFront350BF-BrunoMoura/ExercicioTransicaoTelas/ExercicioTransicaoTelas/Tela02/Tela02ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "402E42D9-B9B7-4219-AC14-20817A04318C - 6f31b20a5566c602"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExercicioTransicaoTelas.Tela02ViewController.name.setter : Swift.String"
+                  moduleName = "ExercicioTransicaoTelas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomoura/TurmaBackFront350BF-BrunoMoura/ExercicioTransicaoTelas/ExercicioTransicaoTelas/Tela02/Tela02ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "402E42D9-B9B7-4219-AC14-20817A04318C - f60b8582404ce293"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExercicioTransicaoTelas.Tela02ViewController.name.modify : Swift.String"
+                  moduleName = "ExercicioTransicaoTelas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomoura/TurmaBackFront350BF-BrunoMoura/ExercicioTransicaoTelas/ExercicioTransicaoTelas/Tela02/Tela02ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "402E42D9-B9B7-4219-AC14-20817A04318C - e237a78ef42bba7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExercicioTransicaoTelas.Tela02ViewController.name.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ExercicioTransicaoTelas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomoura/TurmaBackFront350BF-BrunoMoura/ExercicioTransicaoTelas/ExercicioTransicaoTelas/Tela02/Tela02ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "402E42D9-B9B7-4219-AC14-20817A04318C - 6cff9600a95d1f4c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExercicioTransicaoTelas.Tela02ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ExercicioTransicaoTelas.Tela02ViewController"
+                  moduleName = "ExercicioTransicaoTelas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomoura/TurmaBackFront350BF-BrunoMoura/ExercicioTransicaoTelas/ExercicioTransicaoTelas/Tela02/Tela02ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "402E42D9-B9B7-4219-AC14-20817A04318C - a7c351ad20bc7165"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExercicioTransicaoTelas.Tela02ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ExercicioTransicaoTelas.Tela02ViewController&gt;"
+                  moduleName = "ExercicioTransicaoTelas"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brunomoura/TurmaBackFront350BF-BrunoMoura/ExercicioTransicaoTelas/ExercicioTransicaoTelas/Tela02/Tela02ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

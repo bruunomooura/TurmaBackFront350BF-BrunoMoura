@@ -27,19 +27,30 @@
                                     <action selector="tappedGoScreen2Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iMe-Ir-hHB"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L55-OR-Y9g">
+                                <rect key="frame" x="30" y="185" width="333" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
                             <constraint firstItem="S0C-Th-cij" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BVP-NQ-DY0"/>
+                            <constraint firstItem="L55-OR-Y9g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="CNg-KK-2zT"/>
                             <constraint firstItem="S0C-Th-cij" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ppe-6s-eNN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="L55-OR-Y9g" secondAttribute="trailing" constant="30" id="gEI-B3-hTL"/>
+                            <constraint firstItem="L55-OR-Y9g" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="82" id="zJm-sg-qhp"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GvK-6K-Ong"/>
+                    <connections>
+                        <outlet property="nameTextField" destination="L55-OR-Y9g" id="BF4-em-Dlz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1057.2519083969464" y="-34.507042253521128"/>
+            <point key="canvasLocation" x="1019" y="-35"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="iuj-EW-9FV">
