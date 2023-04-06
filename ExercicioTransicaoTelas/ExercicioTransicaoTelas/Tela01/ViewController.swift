@@ -9,6 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    override func viewDidAppear(_ animated: Bool) {
+        navigationController?.navigationBar.isHidden = true
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -17,8 +20,9 @@ class ViewController: UIViewController {
 
     @IBAction func tappedGoScreen2Button(_ sender: UIButton) {
         let vc: Tela02ViewController? = UIStoryboard(name: "Tela02ViewController", bundle: nil).instantiateViewController(withIdentifier: "Tela02ViewController") as? Tela02ViewController
-        vc?.modalPresentationStyle = .fullScreen
-        present(vc ?? UIViewController(), animated: true)
+//        vc?.modalPresentationStyle = .fullScreen
+        navigationController?.pushViewController(vc ?? UIViewController(), animated: true)
+    
         
     }
 }

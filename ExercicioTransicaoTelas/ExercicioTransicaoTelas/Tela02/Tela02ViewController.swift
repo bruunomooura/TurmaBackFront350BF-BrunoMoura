@@ -12,12 +12,15 @@ class Tela02ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
-
-    @IBAction func tappedBackButton(_ sender: UIButton) {
-        dismiss(animated: true)
+    @IBAction func tappedGoScreen3Button(_ sender: UIButton) {
+        let vc: Tela03ViewController? = UIStoryboard(name: "Tela03ViewController", bundle: nil).instantiateViewController(withIdentifier: "Tela03ViewController") as? Tela03ViewController
+        navigationController?.pushViewController(vc ?? UIViewController(), animated: true)
     }
     
+   
+    @IBAction func tappedBack(_ sender: UIButton) {
+        navigationController?.popViewController(animated: true)
+    }
 }
