@@ -48,7 +48,7 @@ extension ViewController: UITextFieldDelegate{
     
     func textFieldDidEndEditing(_ textField: UITextField) {
         textField.layer.borderColor = UIColor.lightGray.cgColor
-        if textField.hasText == false{
+        if !textField.hasText {
             textField.layer.borderColor = UIColor.red.cgColor
             registerButton.isEnabled = false
         } else if nameTextField.hasText == true && addressTextField.hasText == true && passwordTextField.hasText == true {
