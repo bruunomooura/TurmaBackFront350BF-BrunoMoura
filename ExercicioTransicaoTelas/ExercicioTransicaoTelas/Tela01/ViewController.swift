@@ -16,7 +16,10 @@ class ViewController: UIViewController {
 
 
     @IBAction func tappedGoScreen2Button(_ sender: UIButton) {
-        performSegue(withIdentifier: "Tela02ViewController", sender: nil)
+        let vc: Tela02ViewController? = UIStoryboard(name: "Tela02ViewController", bundle: nil).instantiateViewController(withIdentifier: "Tela02ViewController") as? Tela02ViewController
+        vc?.modalPresentationStyle = .fullScreen
+        present(vc ?? UIViewController(), animated: true)
+        
     }
 }
 

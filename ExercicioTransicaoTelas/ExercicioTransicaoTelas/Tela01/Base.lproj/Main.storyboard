@@ -35,21 +35,10 @@
                             <constraint firstItem="S0C-Th-cij" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ppe-6s-eNN"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <segue destination="g3k-xh-3Yj" kind="presentation" identifier="Tela02ViewController" modalPresentationStyle="fullScreen" id="MNX-87-mMs"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="132" y="-34"/>
-        </scene>
-        <!--Tela02ViewController-->
-        <scene sceneID="fFN-t5-Ch1">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Tela02ViewController" id="g3k-xh-3Yj" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RoK-Rl-y6R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="856" y="-25"/>
         </scene>
     </scenes>
     <resources>
