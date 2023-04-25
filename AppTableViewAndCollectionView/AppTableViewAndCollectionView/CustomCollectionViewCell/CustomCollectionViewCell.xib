@@ -30,7 +30,7 @@
             </constraints>
             <size key="customSize" width="349" height="310"/>
             <connections>
-                <outlet property="carImageView" destination="WO6-9t-g3T" id="w4W-7y-tGv"/>
+                <outlet property="vehicleImageView" destination="WO6-9t-g3T" id="w4W-7y-tGv"/>
             </connections>
             <point key="canvasLocation" x="187.02290076335876" y="80.281690140845072"/>
         </collectionViewCell>

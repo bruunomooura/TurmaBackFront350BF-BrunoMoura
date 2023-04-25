@@ -17,6 +17,7 @@
 		3FA9E06129EDE44D00BC5DB5 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9E05F29EDE44D00BC5DB5 /* CustomTableViewCell.xib */; };
 		3FA9E06529EDE90800BC5DB5 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9E06329EDE90800BC5DB5 /* CustomCollectionViewCell.swift */; };
 		3FA9E06629EDE90800BC5DB5 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9E06429EDE90800BC5DB5 /* CustomCollectionViewCell.xib */; };
+		3FA9E0E829F2198900BC5DB5 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9E0E729F2198900BC5DB5 /* Vehicle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3FA9E05F29EDE44D00BC5DB5 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		3FA9E06329EDE90800BC5DB5 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		3FA9E06429EDE90800BC5DB5 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		3FA9E0E729F2198900BC5DB5 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		3FA9E04829EDE0F600BC5DB5 /* AppTableViewAndCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				3FA9E0E629F2196200BC5DB5 /* Model */,
 				3FA9E06229EDE8E700BC5DB5 /* CustomCollectionViewCell */,
 				3FA9E05D29EDE41B00BC5DB5 /* CustomTableViewCell */,
 				3FA9E04929EDE0F600BC5DB5 /* AppDelegate.swift */,
@@ -93,6 +96,14 @@
 				3FA9E06429EDE90800BC5DB5 /* CustomCollectionViewCell.xib */,
 			);
 			path = CustomCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		3FA9E0E629F2196200BC5DB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FA9E0E729F2198900BC5DB5 /* Vehicle.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA9E0E829F2198900BC5DB5 /* Vehicle.swift in Sources */,
 				3FA9E04E29EDE0F600BC5DB5 /* ViewController.swift in Sources */,
 				3FA9E06529EDE90800BC5DB5 /* CustomCollectionViewCell.swift in Sources */,
 				3FA9E04A29EDE0F600BC5DB5 /* AppDelegate.swift in Sources */,

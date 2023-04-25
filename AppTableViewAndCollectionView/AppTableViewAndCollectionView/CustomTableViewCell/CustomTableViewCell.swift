@@ -10,16 +10,17 @@ import UIKit
 class CustomTableViewCell: UITableViewCell{
     
     
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
     
-    static let identifier: String = "CustomTableViewCell"
+    static let identifier: String = String(describing: CustomTableViewCell.self)
     
     static func nib() -> UINib {
         return UINib(nibName: self.identifier, bundle: nil)
     }
     
-    var listBrandCar: [String] = ["Audi", "Fiat", "Porsche", "Tesla", "Jeep", "Toyota", "Volkswagen"]
+    var list: [String] = []
+  
     
     let fontTitleLabel = UILabel()
     let fonte = UIFont.systemFont(ofSize: 30)
@@ -29,9 +30,7 @@ class CustomTableViewCell: UITableViewCell{
     override func awakeFromNib() {
         super.awakeFromNib()
         configCollectionView()
-        let atributos: [NSAttributedString.Key: Any] = [.font: fonteNegrito]
-        titleLabel.font = fonte
-        titleLabel.attributedText = NSAttributedString(string: titleLabel.text ?? "", attributes: atributos)
+        
         
         
     }
@@ -42,24 +41,31 @@ class CustomTableViewCell: UITableViewCell{
             layout.scrollDirection = .horizontal
             layout.estimatedItemSize = .zero
         }
-        collectionView.register(CustomCollectionViewCell.nib(), forCellWithReuseIdentifier: CustomCollectionViewCell.identifier)
+        self.collectionView.register(CustomCollectionViewCell.nib(), forCellWithReuseIdentifier: CustomCollectionViewCell.identifier)
         collectionView.contentMode = .scaleAspectFit
+        let atributos: [NSAttributedString.Key: Any] = [.font: fonteNegrito]
+        nameLabel.font = fonte
+        nameLabel.attributedText = NSAttributedString(string: nameLabel.text ?? "", attributes: atributos)
+    }
+    func setupCell(vehicle: Vehicle) {
+        nameLabel.text = vehicle.name
+        list = vehicle.list
     }
 }
     
 extension CustomTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
        
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return listBrandCar.count
+        return list.count
         }
         
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CustomCollectionViewCell.identifier, for: indexPath) as? CustomCollectionViewCell
-        cell?.setupeCell(nameImagem: listBrandCar[indexPath.row])
+        cell?.setupeCell(nameImage: list[indexPath.row])
             return cell ?? UICollectionViewCell()
         }
         
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: (contentView.frame.width)/1.5, height: 250)
+        return CGSize(width: (collectionView.frame.width)/1.5, height: 250)
         }
     }

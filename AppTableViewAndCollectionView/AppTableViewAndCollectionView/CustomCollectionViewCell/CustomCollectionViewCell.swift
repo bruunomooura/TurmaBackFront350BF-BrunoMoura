@@ -9,9 +9,9 @@ import UIKit
 
 class CustomCollectionViewCell: UICollectionViewCell {
 
-    @IBOutlet weak var carImageView: UIImageView!
+    @IBOutlet weak var vehicleImageView: UIImageView!
     
-    static let identifier: String = "CustomCollectionViewCell"
+    static let identifier: String = String(describing: CustomCollectionViewCell.self)
     
     static func nib() -> UINib {
         return UINib(nibName: self.identifier, bundle: nil)
@@ -19,10 +19,15 @@ class CustomCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        carImageView.contentMode = .scaleAspectFit
+        congigElement()
+        
     }
 
-    func setupeCell(nameImagem: String) {
-        carImageView.image = UIImage(named: nameImagem)
+    func congigElement() {
+        vehicleImageView.contentMode = .scaleAspectFit
+    }
+    
+    func setupeCell(nameImage: String) {
+        vehicleImageView.image = UIImage(named: nameImage)
     }
 }
