@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Z7C-bo-8eZ">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tela 2-->
+        <scene sceneID="27U-R5-Ryg">
+            <objects>
+                <viewController id="WJn-2O-Xf9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="knN-VO-T2k">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="nLg-Tx-98b"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tela 2" image="rectangle.portrait.and.arrow.right.fill" catalog="system" id="fDi-Qa-K3R"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BXb-15-Of5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-40" y="-48"/>
+        </scene>
+        <!--Tela 3-->
+        <scene sceneID="Aos-lA-W7l">
+            <objects>
+                <viewController id="tR2-hj-594" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HuU-at-KB8">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Rpc-mG-mdW"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tela 3" image="folder.fill.badge.questionmark" catalog="system" id="7mT-SM-YOs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zWp-8r-Vbf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-35" y="618"/>
+        </scene>
+        <!--Tela 1-->
+        <scene sceneID="b5X-C0-TBX">
+            <objects>
+                <viewController id="V8e-B3-kOk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5eh-yi-goq">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="h0h-fI-Xzy"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tela 1" image="square.and.arrow.up" catalog="system" id="bcW-jv-p2a"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BYE-6K-8G9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-40" y="-655"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="eq0-gf-bN5">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBarController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Z7C-bo-8eZ" customClass="TabBarController" customModule="PrimeiroProjetoTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="isf-i0-xzz">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="V8e-B3-kOk" kind="relationship" relationship="viewControllers" id="Cvt-jh-yQh"/>
+                        <segue destination="WJn-2O-Xf9" kind="relationship" relationship="viewControllers" id="BX7-WJ-Eij"/>
+                        <segue destination="tR2-hj-594" kind="relationship" relationship="viewControllers" id="OXu-Ok-wAb"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ykI-sd-cNg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-947" y="-352"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="folder.fill.badge.questionmark" catalog="system" width="128" height="92"/>
+        <image name="rectangle.portrait.and.arrow.right.fill" catalog="system" width="128" height="108"/>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
