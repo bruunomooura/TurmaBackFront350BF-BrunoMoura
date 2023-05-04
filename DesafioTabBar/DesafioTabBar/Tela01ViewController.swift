@@ -76,6 +76,7 @@ class Tela01ViewController: UIViewController {
             nameTextField.text = ""
             userImageView.image = UIImage(systemName: "person.circle.fill")
             tableView.reloadData()
+            tableView.scrollToRow(at: IndexPath(row: data.count - 1, section: 0), at: .bottom, animated: true)
         }
     }
 }
