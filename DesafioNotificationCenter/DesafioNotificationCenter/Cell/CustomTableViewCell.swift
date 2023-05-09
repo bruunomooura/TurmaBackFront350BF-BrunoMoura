@@ -23,7 +23,7 @@ class CustomTableViewCell: UITableViewCell {
     }
 
     func setupCell(cadastro: Cadastro) {
-        nameLabel.text = cadastro.Name
+        nameLabel.text = cadastro.name
     }
     
 }

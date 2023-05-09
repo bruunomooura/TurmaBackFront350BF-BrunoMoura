@@ -8,5 +8,5 @@
 import Foundation
 
 struct Cadastro {
-    let Name: String
+    let name: String
 }

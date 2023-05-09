@@ -27,7 +27,7 @@ class DadosViewController: UIViewController {
     }
     
     @objc func updateName(_ notification: NSNotification) {
-        data.append(Cadastro(Name: notification.object as? String ?? ""))
+        data.append(Cadastro(name: notification.object as? String ?? ""))
         tableView.reloadData()
         
         
