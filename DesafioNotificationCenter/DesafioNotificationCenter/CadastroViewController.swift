@@ -10,7 +10,7 @@ import UIKit
 class CadastroViewController: UIViewController {
     
     
-    @IBOutlet weak var cadastroLabel: UILabel!
+    @IBOutlet weak var registerLabel: UILabel!
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var addButton: UIButton!
     
@@ -24,8 +24,8 @@ class CadastroViewController: UIViewController {
     
     func configCadastroView() {
         view.backgroundColor = .orange
-        cadastroLabel.text = "Cadastro"
-        cadastroLabel.font = UIFont.systemFont(ofSize: 40.0, weight: .bold)
+        registerLabel.text = "Cadastro"
+        registerLabel.font = UIFont.systemFont(ofSize: 40.0, weight: .bold)
         
         nameTextField.placeholder = "Insira um nome"
     }

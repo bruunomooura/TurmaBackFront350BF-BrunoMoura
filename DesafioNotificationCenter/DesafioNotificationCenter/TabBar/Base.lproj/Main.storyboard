@@ -57,8 +57,8 @@
                     <tabBarItem key="tabBarItem" title="Item 2" id="MQp-ks-Jdy"/>
                     <connections>
                         <outlet property="addButton" destination="Lr0-6H-6g6" id="Npo-yS-eIe"/>
-                        <outlet property="cadastroLabel" destination="cwE-bE-oW8" id="Nq1-ej-8V9"/>
                         <outlet property="nameTextField" destination="Vsw-UX-Y0S" id="N6Y-wl-Kvh"/>
+                        <outlet property="registerLabel" destination="cwE-bE-oW8" id="Nq1-ej-8V9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KUA-Or-Ppu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
