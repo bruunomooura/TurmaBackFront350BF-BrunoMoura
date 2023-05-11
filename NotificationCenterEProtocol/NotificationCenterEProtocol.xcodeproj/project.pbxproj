@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		3F5283832A046AAE00EDC1CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5283822A046AAE00EDC1CD /* AppDelegate.swift */; };
 		3F5283852A046AAE00EDC1CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5283842A046AAE00EDC1CD /* SceneDelegate.swift */; };
-		3F5283872A046AAE00EDC1CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5283862A046AAE00EDC1CD /* ViewController.swift */; };
+		3F5283872A046AAE00EDC1CD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5283862A046AAE00EDC1CD /* HomeViewController.swift */; };
 		3F52838A2A046AAE00EDC1CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5283882A046AAE00EDC1CD /* Main.storyboard */; };
 		3F52838C2A046AAF00EDC1CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F52838B2A046AAF00EDC1CD /* Assets.xcassets */; };
 		3F52838F2A046AAF00EDC1CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F52838D2A046AAF00EDC1CD /* LaunchScreen.storyboard */; };
-		3F5283982A046C6300EDC1CD /* Tela02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5283972A046C6300EDC1CD /* Tela02ViewController.swift */; };
-		3F52839A2A046C6E00EDC1CD /* Tela02ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5283992A046C6E00EDC1CD /* Tela02ViewController.storyboard */; };
+		3F5283982A046C6300EDC1CD /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5283972A046C6300EDC1CD /* SelectionViewController.swift */; };
+		3F52839A2A046C6E00EDC1CD /* SelectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5283992A046C6E00EDC1CD /* SelectionViewController.storyboard */; };
 		3F52839D2A048F0400EDC1CD /* NSNotificationName+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F52839C2A048F0400EDC1CD /* NSNotificationName+Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,13 +22,13 @@
 		3F52837F2A046AAD00EDC1CD /* NotificationCenterEProtocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationCenterEProtocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5283822A046AAE00EDC1CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F5283842A046AAE00EDC1CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F5283862A046AAE00EDC1CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F5283862A046AAE00EDC1CD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3F5283892A046AAE00EDC1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F52838B2A046AAF00EDC1CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F52838E2A046AAF00EDC1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F5283902A046AAF00EDC1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F5283972A046C6300EDC1CD /* Tela02ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela02ViewController.swift; sourceTree = "<group>"; };
-		3F5283992A046C6E00EDC1CD /* Tela02ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tela02ViewController.storyboard; sourceTree = "<group>"; };
+		3F5283972A046C6300EDC1CD /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		3F5283992A046C6E00EDC1CD /* SelectionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectionViewController.storyboard; sourceTree = "<group>"; };
 		3F52839C2A048F0400EDC1CD /* NSNotificationName+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNotificationName+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,8 +62,8 @@
 		3F5283812A046AAE00EDC1CD /* NotificationCenterEProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				3F52839B2A046FC000EDC1CD /* Tela01 */,
-				3F5283962A046C4000EDC1CD /* Tela02 */,
+				3F52839B2A046FC000EDC1CD /* HomeViewController */,
+				3F5283962A046C4000EDC1CD /* SelectionViewController */,
 				3F5283822A046AAE00EDC1CD /* AppDelegate.swift */,
 				3F5283842A046AAE00EDC1CD /* SceneDelegate.swift */,
 				3F52838B2A046AAF00EDC1CD /* Assets.xcassets */,
@@ -74,22 +74,22 @@
 			path = NotificationCenterEProtocol;
 			sourceTree = "<group>";
 		};
-		3F5283962A046C4000EDC1CD /* Tela02 */ = {
+		3F5283962A046C4000EDC1CD /* SelectionViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3F5283972A046C6300EDC1CD /* Tela02ViewController.swift */,
-				3F5283992A046C6E00EDC1CD /* Tela02ViewController.storyboard */,
+				3F5283972A046C6300EDC1CD /* SelectionViewController.swift */,
+				3F5283992A046C6E00EDC1CD /* SelectionViewController.storyboard */,
 			);
-			path = Tela02;
+			path = SelectionViewController;
 			sourceTree = "<group>";
 		};
-		3F52839B2A046FC000EDC1CD /* Tela01 */ = {
+		3F52839B2A046FC000EDC1CD /* HomeViewController */ = {
 			isa = PBXGroup;
 			children = (
-				3F5283862A046AAE00EDC1CD /* ViewController.swift */,
+				3F5283862A046AAE00EDC1CD /* HomeViewController.swift */,
 				3F5283882A046AAE00EDC1CD /* Main.storyboard */,
 			);
-			path = Tela01;
+			path = HomeViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F52838F2A046AAF00EDC1CD /* LaunchScreen.storyboard in Resources */,
-				3F52839A2A046C6E00EDC1CD /* Tela02ViewController.storyboard in Resources */,
+				3F52839A2A046C6E00EDC1CD /* SelectionViewController.storyboard in Resources */,
 				3F52838C2A046AAF00EDC1CD /* Assets.xcassets in Resources */,
 				3F52838A2A046AAE00EDC1CD /* Main.storyboard in Resources */,
 			);
@@ -164,8 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F5283982A046C6300EDC1CD /* Tela02ViewController.swift in Sources */,
-				3F5283872A046AAE00EDC1CD /* ViewController.swift in Sources */,
+				3F5283982A046C6300EDC1CD /* SelectionViewController.swift in Sources */,
+				3F5283872A046AAE00EDC1CD /* HomeViewController.swift in Sources */,
 				3F5283832A046AAE00EDC1CD /* AppDelegate.swift in Sources */,
 				3F52839D2A048F0400EDC1CD /* NSNotificationName+Extension.swift in Sources */,
 				3F5283852A046AAE00EDC1CD /* SceneDelegate.swift in Sources */,
