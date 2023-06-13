@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ChatGPT
+//  ChatGPT350BF
 //
-//  Created by Bruno Moura on 11/05/23.
+//  Created by Caio Fabrini on 11/05/23.
 //
 
 import UIKit
